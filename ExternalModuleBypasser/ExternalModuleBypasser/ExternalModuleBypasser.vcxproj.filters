@@ -10,9 +10,6 @@
     <Filter Include="dev\cpp">
       <UniqueIdentifier>{d20b103e-3ad7-445b-970f-c60d498be524}</UniqueIdentifier>
     </Filter>
-    <Filter Include="dev\cpp\util">
-      <UniqueIdentifier>{3744990b-be00-4f76-a7ba-e2dc872483ae}</UniqueIdentifier>
-    </Filter>
     <Filter Include="dev\hpp\util">
       <UniqueIdentifier>{bc29c7e7-9386-4e66-af82-fcc752ca0a22}</UniqueIdentifier>
     </Filter>
@@ -26,9 +23,6 @@
   <ItemGroup>
     <ClCompile Include="Bootstrap.cpp">
       <Filter>dev</Filter>
-    </ClCompile>
-    <ClCompile Include="MemoryUtil.cpp">
-      <Filter>dev\cpp\util</Filter>
     </ClCompile>
     <ClCompile Include="Bypasser.cpp">
       <Filter>dev\cpp\csgo</Filter>

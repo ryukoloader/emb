@@ -21,7 +21,6 @@
   <ItemGroup>
     <ClCompile Include="Bootstrap.cpp" />
     <ClCompile Include="Bypasser.cpp" />
-    <ClCompile Include="MemoryUtil.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Bypasser.h" />

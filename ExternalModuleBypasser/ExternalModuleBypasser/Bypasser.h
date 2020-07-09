@@ -14,8 +14,7 @@ public:
 private:
 
 	HANDLE     m_applicationHandle;
-	FARPROC    m_ntOpenFile		   , m_ldrLoadDll;
-	FARPROC    m_externalNtOpenFile, m_externalLdrLoadDll;
+	FARPROC    m_ntOpenFile, m_ldrLoadDll;
 	MemoryUtil m_memoryUtil;
 
 };

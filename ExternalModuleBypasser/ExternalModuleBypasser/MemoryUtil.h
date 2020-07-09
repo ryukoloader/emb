@@ -11,8 +11,6 @@ public:
 	bool WriteToMemory (DWORD address, LPCVOID buffer, SIZE_T size) {
 		return WriteProcessMemory (m_applicationHandle, reinterpret_cast <LPVOID> (address), buffer, size, NULL);
 	}
-
-	DWORD GetModuleBase (const char* module);
 	
 private:
 
