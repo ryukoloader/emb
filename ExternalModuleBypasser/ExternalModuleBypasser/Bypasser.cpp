@@ -14,7 +14,7 @@ bool Bypasser::InitNtDll () {
 	std::cout << "NTDLL handle: " << std::hex << "0x" << reinterpret_cast <DWORD> (ntdllHandle)  << "." << std::endl;
 	std::cout << "NtOpenFile: "   << std::hex << "0x" << reinterpret_cast <DWORD> (m_ntOpenFile) << "." << std::endl;
 	std::cout << "LdrLoadDll: "   << std::hex << "0x" << reinterpret_cast <DWORD> (m_ldrLoadDll) << "." << std::endl;
-
+	return true;
 }
 
 bool Bypasser::NtOpenFile () {
