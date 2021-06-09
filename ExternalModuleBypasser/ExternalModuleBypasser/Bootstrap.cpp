@@ -6,7 +6,6 @@
 int main () {
 
 	auto terminate = []() {
-		system ("pause");
 		exit   (-1);
 	};
 
